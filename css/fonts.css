@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Cuprum';
+    src: url('../fonts/Cuprum-BoldItalic.eot');
+    src: url('../fonts/Cuprum-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cuprum-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Cuprum-BoldItalic.woff') format('woff'),
+        url('../fonts/Cuprum-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Cuprum-BoldItalic.svg#Cuprum-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('../fonts/Cuprum-Bold.eot');
+    src: url('../fonts/Cuprum-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cuprum-Bold.woff2') format('woff2'),
+        url('../fonts/Cuprum-Bold.woff') format('woff'),
+        url('../fonts/Cuprum-Bold.ttf') format('truetype'),
+        url('../fonts/Cuprum-Bold.svg#Cuprum-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('../fonts/Cuprum-Italic.eot');
+    src: url('../fonts/Cuprum-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cuprum-Italic.woff2') format('woff2'),
+        url('../fonts/Cuprum-Italic.woff') format('woff'),
+        url('../fonts/Cuprum-Italic.ttf') format('truetype'),
+        url('../fonts/Cuprum-Italic.svg#Cuprum-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('../fonts/Cuprum.eot');
+    src: url('../fonts/Cuprum.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cuprum.woff2') format('woff2'),
+        url('../fonts/Cuprum.woff') format('woff'),
+        url('../fonts/Cuprum.ttf') format('truetype'),
+        url('../fonts/Cuprum.svg#Cuprum') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-Bold.eot');
+    src: url('../fonts/PFDinTextCompPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-Bold.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-Bold.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-Bold.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-Bold.svg#PFDinTextCompPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-Light.eot');
+    src: url('../fonts/PFDinTextCompPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-Light.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-Light.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-Light.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-Light.svg#PFDinTextCompPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-LightItalic.eot');
+    src: url('../fonts/PFDinTextCompPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-LightItalic.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-LightItalic.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-LightItalic.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-LightItalic.svg#PFDinTextCompPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-Italic.eot');
+    src: url('../fonts/PFDinTextCompPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-Italic.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-Italic.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-Italic.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-Italic.svg#PFDinTextCompPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-BoldItalic.eot');
+    src: url('../fonts/PFDinTextCompPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-BoldItalic.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-BoldItalic.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-BoldItalic.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-BoldItalic.svg#PFDinTextCompPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('../fonts/Cuprum-Regular.eot');
+    src: url('../fonts/Cuprum-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Cuprum-Regular.woff2') format('woff2'),
+        url('../fonts/Cuprum-Regular.woff') format('woff'),
+        url('../fonts/Cuprum-Regular.ttf') format('truetype'),
+        url('../fonts/Cuprum-Regular.svg#Cuprum-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-MediumItalic.eot');
+    src: url('../fonts/PFDinTextCompPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-MediumItalic.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-MediumItalic.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-MediumItalic.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-MediumItalic.svg#PFDinTextCompPro-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro X';
+    src: url('../fonts/PFDinTextCompPro-XThinItalic.eot');
+    src: url('../fonts/PFDinTextCompPro-XThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-XThinItalic.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-XThinItalic.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-XThinItalic.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-XThinItalic.svg#PFDinTextCompPro-XThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-Medium.eot');
+    src: url('../fonts/PFDinTextCompPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-Medium.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-Medium.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-Medium.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-Medium.svg#PFDinTextCompPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-Regular.eot');
+    src: url('../fonts/PFDinTextCompPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-Regular.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-Regular.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-Regular.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-Regular.svg#PFDinTextCompPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-Thin.eot');
+    src: url('../fonts/PFDinTextCompPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-Thin.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-Thin.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-Thin.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-Thin.svg#PFDinTextCompPro-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro';
+    src: url('../fonts/PFDinTextCompPro-ThinItalic.eot');
+    src: url('../fonts/PFDinTextCompPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-ThinItalic.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-ThinItalic.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-ThinItalic.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-ThinItalic.svg#PFDinTextCompPro-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro X';
+    src: url('../fonts/PFDinTextCompPro-XThin.eot');
+    src: url('../fonts/PFDinTextCompPro-XThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-XThin.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-XThin.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-XThin.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-XThin.svg#PFDinTextCompPro-XThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro XBlack';
+    src: url('../fonts/PFDinTextCompPro-XBlackItalic.eot');
+    src: url('../fonts/PFDinTextCompPro-XBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-XBlackItalic.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-XBlackItalic.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-XBlackItalic.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-XBlackItalic.svg#PFDinTextCompPro-XBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Din Text Comp Pro XBlack';
+    src: url('../fonts/PFDinTextCompPro-XBlack.eot');
+    src: url('../fonts/PFDinTextCompPro-XBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PFDinTextCompPro-XBlack.woff2') format('woff2'),
+        url('../fonts/PFDinTextCompPro-XBlack.woff') format('woff'),
+        url('../fonts/PFDinTextCompPro-XBlack.ttf') format('truetype'),
+        url('../fonts/PFDinTextCompPro-XBlack.svg#PFDinTextCompPro-XBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

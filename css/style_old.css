@@ -1,0 +1,58 @@
+*{
+    color: white;
+}
+header{
+    height: 125px;
+    background: #ffffff;
+}
+footer{
+    background: #161616;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer-p{
+    font-size: 14px;
+    color: #afafaf;
+}
+section {
+    width: 100%;
+}
+.section-top {
+    height: 100vh;
+    background: url("https://place-hold.it/1900") 0 20px no-repeat;
+    background-size: 100%;
+}
+.header-block{
+
+    height: 100%;
+    width: 100px;
+    background: red;
+}
+.header-wrap{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: black;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.top-menu{
+    height: 45px;
+    margin: 0 auto;
+    margin-top: -20px;
+    background: #f6c02a;
+    border-radius: 10px;
+}
+#btn-get-call{
+    background: #ffd300;
+    color: #604e00;
+    box-shadow: 0px 0px 10px #ffd300;
+}
