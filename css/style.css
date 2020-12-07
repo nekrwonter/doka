@@ -284,6 +284,31 @@ a.nav-link.active{
     font-size: 17px;
     color: #F5C029;
 }
+.prices-table{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-size: 17px;
+    border-radius: 10px; overflow: hidden;
+
+}
+.table td{
+    border-top: none!important;
+}
+.table td:nth-of-type(odd){
+    color: #525252;
+    font-weight: 500;
+}
+.table td:nth-of-type(even){
+    width: 50%;
+    text-align: center;
+    color: #1C1C1C;
+}
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: white;
+}
+.table-striped tbody tr:nth-of-type(even){
+    background-color: #ECECEC;
+}
 /*Icons*/
 .section-icons p{
     font-family: 'Cuprum';
@@ -337,6 +362,9 @@ a.nav-link.active{
     font-weight: 500;
     font-size: 18px;
     color: #332A00;
+}
+.section-contact-form b{
+    font-size: 25px;
 }
 /*Tags*/
 .tags-cloud>div{
