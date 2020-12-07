@@ -391,7 +391,7 @@ a.nav-link.active{
     font-size: 25px;
 }
 .section-contact-form input[type=text]{
-    max-width: 281px;
+    min-width: 268px;
 }
 .section-contact-form textarea{
     min-height: 99px;
@@ -400,6 +400,27 @@ a.nav-link.active{
     -webkit-box-sizing: border-box;
     resize: none;
     outline: 0 none;
+}
+.btn-contact-form{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #332A00;
+    max-width: 206px;
+    background-color: #FFD300;
+
+}
+.section-contact-form form p{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 16px;
+    color: #808080;
+}
+.section-contact-form a{
+    color: #ffd300;
 }
 /*Complect*/
 .complect i{
