@@ -121,7 +121,7 @@
                 </div>
             </div>
             <div class="col-lg-4 overflow-hidden">
-                <div>
+                <div class="position-relative">
                     <div class="row section-top-block">
                         <div class="col-xl-4 align-self-center">
                             <a href="#"><h2>Аренда опалубки стен</h2></a>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="my-auto">
                     <div class="row section-top-block mt-4">
                         <div class="col-xl-4 align-self-center">
                             <a href="#"><h2>Аренда опалубки стен</h2></a>
@@ -199,6 +199,7 @@
                 <span class="tovar-price mb-4 mt-4 d-block text-center">115 руб./м2</span>
                 <a href="#" class="btn btn-section-towar d-block mx-auto mb-5">Подробнее</a>
             </div>
+
         </div>
         <hr>
     </div>
@@ -243,18 +244,28 @@
                     </div>
                     <div class="col-xl-5 mx-auto justify-content-center">
                         <div class="mx-auto" id="price-collapse1">
-                            <button class="btn price-collapse mb-4 w-100" type="button" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="true" aria-controls="collapsePrice1">
-                                <span class="d-inline w-auto float-left">Перекрытие</span>
-                                <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
-                            </button>
-                            <button class="btn price-collapse mb-4 w-100" type="button" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="true" aria-controls="collapsePrice2">
-                                <span class="d-inline w-auto float-left">Стены</span>
-                                <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
-                            </button>
-                            <button class="btn price-collapse mb-4 w-100" type="button" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="true" aria-controls="collapsePrice1">
-                                <span class="d-inline w-auto float-left">Фундамент</span>
-                                <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
-                            </button>
+                            <div class="position-relative mx-auto">
+                                <button class="btn price-collapse mb-4" type="button" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="true" aria-controls="collapsePrice1">
+                                    <span class="d-inline w-auto float-left">Перекрытие</span>
+                                    <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
+                                </button>
+                                <div class="triangle-right"></div>
+                            </div>
+
+                            <div class="position-relative mx-auto">
+                                <button class="btn price-collapse mb-4" type="button" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="true" aria-controls="collapsePrice2">
+                                    <span class="d-inline w-auto float-left">Стены</span>
+                                    <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
+                                </button>
+                                <div class="triangle-right"></div>
+                            </div>
+                            <div class="position-relative mx-auto">
+                                <button class="btn price-collapse mb-4" type="button" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="true" aria-controls="collapsePrice1">
+                                    <span class="d-inline w-auto float-left">Фундамент</span>
+                                    <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
+                                </button>
+                                <div class="triangle-right"></div>
+                            </div>
                         </div>
                     </div>
                 </di>
@@ -459,7 +470,7 @@
 <section class="section-contact-form">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 cf-yellow">
                 <h2 class="mt-5 mb-4">Связаться со специалистом</h2>
                 <p class="mb-3">Оставьте  заявку, и наш специалист свяжется с вами в течении 10 минут, подробно проконсультирует по любому вопросу и предложит индивидуальную скидку.
                     <br><br>
@@ -467,7 +478,7 @@
                     </p>
                 <p class="mb-5"><b>+7 (812) 642-09-07</b></p>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 cf-white  mt-sm-5 mt-xs-5">
                 <form action="/action_page.php" class="mt-5 mb-5">
                     <div class="row justify-content-around">
                         <div class="col-xl-6">
@@ -497,25 +508,94 @@
 
 <!--SECTION Contact-form-->
 <section class="complect">
-    <div class="container">
-        <div class="row">
-            <div class="col-10">
+    <div class="container mt-5 mb-5">
+        <div class="row mb-5">
+            <div class="col-xl-10 col-sm-12 col-xs-12">
                 <h2>Комплектующие</h2>
             </div>
-            <div class="col">
-                <div class="d-flex align-items-center w-auto h-100 align-self-end">
-                    <div class="dots"></div>
-                    <div class="dots"></div>
-                    <div class="dots"></div>
+            <div class="col-xl-2 col-sm-12 col-xs-12">
+                <div class="d-flex justify-content-center align-items-center w-auto h-100 align-self-end">
+                    <div class="dots-doka">
+
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xl-3 complect-item">
-                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto mt-4 mb-4">
+        <div class="row justify-content-between complect-slider owl-theme owl-carousel">
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
                     <img src="img/complect1.png" alt="complect">
                 </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
             </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                        <img src="img/complect2.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect3.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect4.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect1.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect2.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect3.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect4.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect1.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect2.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect3.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+            <div class="col-xl-3 complect-item mx-auto pt-4">
+                <div class="d-flex align-self-center justify-content-center align-items-center img-container-complect mx-auto">
+                    <img src="img/complect4.png" alt="complect">
+                </div>
+                <h5 class="pt-3 pb-3 text-center">Захват монтажный</h5>
+            </div>
+
         </div>
     </div>
 </section>

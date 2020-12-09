@@ -30,6 +30,14 @@
         left: 0;
         top: 0;
     }
+    .section-contact-form{
+        background: none;
+
+    }
+    .section-contact-form .container{
+        background: linear-gradient(to bottom, #F5C029 50%, #F5F7F7 50%);
+
+    }
 }
 
 /*

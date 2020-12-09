@@ -197,7 +197,7 @@ a.nav-link.active{
 }
 .img-container-towar{
     max-width: 326px;
-    max-height: 214px;
+    max-height: 183px;
     background: white;
     box-shadow: 0 0 10px #e6e6e6;
     border: 1px solid transparent;
@@ -258,12 +258,48 @@ a.nav-link.active{
     font-style: normal;
     font-weight: bold;
     color: #525252;
-    max-width: 330px;
+    width: calc(100% - 13px);
     min-height: 56px;
     font-size: 22px;
     background: white;
     box-shadow: 0 0 10px #e6e6e6;
 }
+.price-collapse:focus{
+    outline: 0!important;
+    box-shadow: none!important;
+    border-left: 1px solid #F5C029;
+    border-bottom: 1px solid #F5C029;
+    border-top: 1px solid #F5C029;
+}
+.price-collapse:focus + .triangle-right{
+    display: block!important;
+}
+.price-collapse:active + .triangle-right{
+    display: block!important;
+}
+.price-collapse:active{
+    outline: 0!important;
+    box-shadow: none!important;
+    border-left: 1px solid #F5C029;
+    border-bottom: 1px solid #F5C029;
+    border-top: 1px solid #F5C029;
+}
+
+
+.triangle-right {
+    display: none;
+    position: absolute;
+    right: -5px;
+    top: 8px;
+    bottom: 0;
+    /* margin: 30px auto; */
+    width: 38.5px;
+    height: 38.5px;
+    border-top: 1px solid #F5C029;
+    border-left: 1px solid #F5C029;
+    transform: rotate(135deg);
+}
+
 .span-arrow{
     width: 32px;
     height: 32px;
@@ -372,10 +408,6 @@ a.nav-link.active{
     background: linear-gradient(to right, #F5C029 50%, #F5F7F7 50%);
     font-family: 'Cuprum';
 }
-.section-contact-form .container{
-    background: linear-gradient(to right, #F5C029 50%, #F5F7F7 50%);
-}
-
 .section-contact-form h2{
     color: #332A00;
     font-weight: 500;
@@ -401,6 +433,7 @@ a.nav-link.active{
     resize: none;
     outline: 0 none;
 }
+
 .btn-contact-form{
     font-family: 'Cuprum';
     font-style: normal;
@@ -426,8 +459,15 @@ a.nav-link.active{
 }
 /*Complect*/
 .complect-item{
-    max-width: 281px;
+    max-width: 265px;
     box-shadow: 0 0 10px #e6e6e6;
+}
+.complect-item h5{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C1C1C;
 }
 .img-container-complect{
     max-width: 244px;
@@ -435,6 +475,27 @@ a.nav-link.active{
     background: white;
     border: 1px solid #e6e6e6;
 }
+.img-container-complect img{
+    display: block;
+    max-height: 164px;
+}
+.owl-dot{
+    width: 21px;
+    height: 7px;
+    background-color: #B3B3B3!important;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 5px;
+    outline: 0;
+    border: 0;
+}
+.owl-dot + .active{
+    background-color: #F5C029!important;
+}
+.owl-dot span{display: none}
 .dots{
     width: 21px;
     height: 7px;
@@ -445,6 +506,10 @@ a.nav-link.active{
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+
+}
+.dots + .active{
+    background-color: #F5C029!important;
 }
 /*Tags*/
 .tags-cloud>div{
