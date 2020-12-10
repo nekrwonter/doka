@@ -1,0 +1,103 @@
+/*Price*/
+.price{
+    background-color: #F5F7F7;
+}
+.price p{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #525252;
+}
+.price-collapse{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    color: #525252;
+    width: calc(100% - 13px);
+    min-height: 56px;
+    font-size: 22px;
+    background: white;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+.price-collapse:focus{
+    outline: 0!important;
+    box-shadow: none!important;
+    border-left: 1px solid #F5C029;
+    border-bottom: 1px solid #F5C029;
+    border-top: 1px solid #F5C029;
+}
+.price-collapse:focus + .triangle-right{
+    display: block!important;
+}
+.price-collapse:active + .triangle-right{
+    display: block!important;
+}
+.price-collapse:active{
+    outline: 0!important;
+    box-shadow: none!important;
+    border-left: 1px solid #F5C029;
+    border-bottom: 1px solid #F5C029;
+    border-top: 1px solid #F5C029;
+}
+
+
+.triangle-right {
+    display: none;
+    position: absolute;
+    right: -5px;
+    top: 8px;
+    bottom: 0;
+    /* margin: 30px auto; */
+    width: 38.5px;
+    height: 38.5px;
+    border-top: 1px solid #F5C029;
+    border-left: 1px solid #F5C029;
+    transform: rotate(135deg);
+}
+
+.span-arrow{
+    width: 32px;
+    height: 32px;
+    background-color: #F5F7F7;
+    border-radius: 50%;
+}
+.price-collapse:hover{
+    color: #B8B8B8;
+    background-color: transparent;
+}
+.price-collapse:hover .span-arrow{
+    color: white;
+}
+.price-collapse:hover .span-arrow i{
+    color: #525252;
+}
+.span-arrow i{
+    font-size: 17px;
+    color: #F5C029;
+}
+.prices-table{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-size: 17px;
+    border-radius: 10px; overflow: hidden;
+
+}
+.table td{
+    border-top: none!important;
+}
+.table td:nth-of-type(odd){
+    color: #525252;
+    font-weight: 500;
+}
+.table td:nth-of-type(even){
+    width: 50%;
+    text-align: center;
+    color: #1C1C1C;
+}
+.table-striped tbody tr:nth-of-type(odd){
+    background-color: white;
+}
+.table-striped tbody tr:nth-of-type(even){
+    background-color: #ECECEC;
+}

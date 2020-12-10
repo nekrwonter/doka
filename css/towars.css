@@ -1,0 +1,66 @@
+/*Towars*/
+.slider-towars{
+    margin: 0;
+}
+.towar{
+    max-width: 350px;
+    box-shadow: 0 0 10px #e6e6e6;
+    border: 1px solid transparent;
+}
+.towar:hover{
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+}
+.towar:hover .img-container-towar{
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+}
+.towar h3{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1C1C1C;
+}
+.towar p{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #525252;
+}
+.tovar-price{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C1C1C;
+}
+.img-container-towar{
+    max-width: 326px;
+    max-height: 183px;
+    background: white;
+    box-shadow: 0 0 10px #e6e6e6;
+    border: 1px solid transparent;
+}
+
+.img-container-towar>img{
+    max-height: 183px;
+}
+.btn-section-towar{
+    font-size: 20px;
+    background: #FFD300;
+    color: #332A00;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 180px;
+    overflow-wrap: break-word;
+    font-weight: 500;
+    box-shadow: 0 0 5px #FFD300;
+
+}
+.btn-section-towar:hover{
+    box-shadow: 0 0 0px #FFD300;
+    background: #F6C02A;
+    color: white;
+}
