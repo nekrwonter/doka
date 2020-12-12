@@ -75,6 +75,24 @@ header .navbar{
 a.nav-link.active{
     color: #F6C02A;
 }
+ul.dropdown-menu{
+    position: relative;
+    border-top: 2px solid #F6C02A;
+}
+ul.dropdown-menu.show::after{
+    content: '';
+    position: absolute;
+    top: -15px;
+    opacity: 1;
+    left: 35%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #F6C02A;
+}
+
 .header-social-links{
     position: relative;
     background: #A6A6A6;
@@ -228,8 +246,12 @@ a.nav-link.active{
 .logo-slider{
     overflow-y: visible!important;
 }
-img.d-block.mx-auto {
-    width: 100%;
+/*img.d-block.mx-auto {*/
+/*    width: 100%;*/
+/*}*/
+/*Reviews*/
+.section-reviews{
+    background-color: #F5F7F7;
 }
 /*Footer*/
 footer{

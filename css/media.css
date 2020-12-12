@@ -21,8 +21,13 @@
     }
 }
 
+/**/
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
 /*
-
  ##Screen = B/w 768px to 1024px
 */
 @media (max-width: 768px) {
