@@ -310,7 +310,10 @@ ul.dropdown-menu.show::after{
     font-size: 17px;
     color: #f3bf29;
 }
-.text-2-images>div{
+
+
+/*Section images*/
+.images>div{
     max-width: 260px;
     height: 198px;
     overflow: hidden;
@@ -318,8 +321,33 @@ ul.dropdown-menu.show::after{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.text-2-videos video{
-    max-width: 281px!important;
+/*Section videos*/
+.videos video{
+    max-width: 250px!important;
+    min-height: 200px;
+}
+/*Best solution*/
+.section-best-solution{
+    background-color:#F5F7F3;
+}
+.bs-sub-title{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #525252;
+}
+.solution-test{
+    background-color: white;
+    min-height: 265px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+.solution-test h5{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F3BF29;
 }
 /*Footer*/
 footer{

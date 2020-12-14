@@ -89,7 +89,7 @@ $(document).ready(function(){
             }
         }
     });
-    $(".text-2-videos").owlCarousel({
+    $(".videos").owlCarousel({
         loop:true,
         dots:true,
         dotsClass: "dots",
