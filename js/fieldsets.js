@@ -1,9 +1,9 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
     var current_fs, next_fs, previous_fs; //fieldsets
     var opacity;
 
-    $(".next").on('click', function(){
+    $(".next").on('click', function () {
         current_fs = $(this).parent();
         current_fs.css({
             'display': 'none'
@@ -15,7 +15,7 @@ $(document).ready(function(){
         next_fs.show();
 //hide the current fieldset with style
         current_fs.animate({opacity: 0}, {
-            step: function(now) {
+            step: function (now) {
 // for making fielset appear animation
                 opacity = 1 - now;
 
@@ -29,7 +29,7 @@ $(document).ready(function(){
         });
     });
 
-    $(".previous").click(function(){
+    $(".previous").click(function () {
 
         current_fs = $(this).parent();
         current_fs.css({
@@ -43,7 +43,7 @@ $(document).ready(function(){
 
 //hide the current fieldset with style
         current_fs.animate({opacity: 0}, {
-            step: function(now) {
+            step: function (now) {
 // for making fielset appear animation
                 opacity = 1 - now;
 
@@ -57,12 +57,12 @@ $(document).ready(function(){
         });
     });
 
-    $('.radio-group .radio').click(function(){
+    $('.radio-group .radio').click(function () {
         $(this).parent().find('.radio').removeClass('selected');
         $(this).addClass('selected');
     });
 
-    $(".submit").click(function(){
+    $(".submit").click(function () {
         return false;
     })
 

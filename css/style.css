@@ -356,13 +356,6 @@ ul.dropdown-menu.show::after{
     color: #444444;
     font-size: 18px;
 }
-.section-best-solution p{
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: normal;
-    color: #3E3E3D;
-    font-size: 18px;
-}
 .section-best-solution span{
     color: #FF7E26;
 }
@@ -378,8 +371,32 @@ ul.dropdown-menu.show::after{
     padding-right: 30px;
     box-shadow: 0px 0px 10px #ffd300;
 }
+.btn-next-step:hover{
+    box-shadow: none;
+}
 #msform fieldset:not(:first-of-type) {
     display: none
+}
+.saler h6{
+    font-family: 'Cuprum';
+    font-style: normal;
+    color: #525252;
+    font-size: 20px;
+    font-weight: bold;
+}
+.saler-position{
+    font-family: 'Cuprum';
+    font-style: normal;
+    color: #525252;
+    font-weight: normal;
+    font-size: 17px;
+}
+.saler-text{
+    font-family: 'Cuprum';
+    font-style: normal;
+    color: #525252;
+    font-weight: normal;
+    font-size: 16px;
 }
 /*Footer*/
 footer{
