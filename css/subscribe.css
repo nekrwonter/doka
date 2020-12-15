@@ -1,0 +1,38 @@
+/*Subscribe*/
+.section-subscribe h2{
+    font-family: 'PF Din Text Comp Pro';
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    color:#1C1C1C;
+    overflow-wrap: break-word;
+}
+.section-subscribe p{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #525252;
+}
+.section-subscribe .form-control{
+    color: #525252;
+    height: 44px;
+}
+.section-subscribe input[type=text]{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+.btn-subscribe{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #332A00;
+    max-width: 206px;
+    background-color: #FFD300;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 10px #ffd300;
+}

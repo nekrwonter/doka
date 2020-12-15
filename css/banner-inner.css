@@ -1,11 +1,26 @@
 /*Banner inner*/
+
 .section-banner-inner {
+    z-index: 1;
     background-image: url(../img/banner-inner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: grayscale(1.0);
     min-height: 257px;
     background-position: 0 22px;
+}
+/*.section-banner-inner .overlay{*/
+/*    background-color: rgba(0,0,0,.3);*/
+/*    width: 100%;*/
+/*    height: calc(100% - 22px);*/
+/*    bottom: 0;*/
+/*    position: absolute;*/
+/*}*/
+.section-banner-inner h2{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
 }
 .nav-wrap{
     background-color: #F5C029;
@@ -22,7 +37,6 @@
 .top-menu li.nav-item:after{
     content: '';
     width: 4px;
-    height: 80%;
     vertical-align: center;
     border-right: 4px dotted white;
 }
@@ -50,4 +64,30 @@
     font-weight: bold;
     font-size: 20px;
     color: #332A00;
+}
+.breadcrumb{
+    background-color: transparent!important;
+
+}
+.breadcrumb a{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFD300;
+    text-decoration: none;
+}
+.breadcrumb-item + .active{
+    color: white;
+}
+.breadcrumb-banner{
+    position: relative;
+    top: calc(50% - 30px);
+    left: 0;
+    right: 0;
+
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color: white;
+    padding-right: 1.5rem;
 }
