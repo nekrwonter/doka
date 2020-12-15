@@ -2,6 +2,8 @@ $(document).ready(function(){
     $(".slider-towars").owlCarousel({
         loop:true,
         dots: false,
+        margin:20,
+        stagePadding: 10,
         responsiveClass:true,
         responsive:{
             1200 : {
@@ -23,6 +25,8 @@ $(document).ready(function(){
     $(".complect-slider").owlCarousel({
         loop:true,
         dots:true,
+        margin:20,
+        stagePadding: 10,
         dotsClass: "dots",
         dotsContainer: ".dots-complect",
         responsiveClass:true,
@@ -46,6 +50,8 @@ $(document).ready(function(){
     $(".logo-slider").owlCarousel({
         loop:true,
         dots:true,
+        margin:20,
+        stagePadding: 10,
         dotsClass: "dots",
         dotsContainer: ".dots-logo",
         responsiveClass:true,
@@ -69,6 +75,8 @@ $(document).ready(function(){
     $(".reviews-slider").owlCarousel({
         loop:true,
         dots:true,
+        margin:20,
+        stagePadding: 10,
         dotsClass: "dots",
         dotsContainer: ".dots-reviews",
         responsiveClass:true,
@@ -92,6 +100,8 @@ $(document).ready(function(){
     $(".videos").owlCarousel({
         loop:true,
         dots:true,
+        margin:20,
+        stagePadding: 10,
         dotsClass: "dots",
         dotsContainer: ".dots-videos",
         responsiveClass:true,

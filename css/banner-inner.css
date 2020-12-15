@@ -1,0 +1,11 @@
+/*Banner inner*/
+.section-banner-inner {
+    background-image: url(../img/banner-inner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: grayscale(1.0);
+    min-height: 257px;
+}
+.top-menu{
+    background-color: #F5C029;
+}

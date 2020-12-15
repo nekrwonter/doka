@@ -111,60 +111,6 @@ ul.dropdown-menu.show::after{
 .header-social-links:hover{
     background: #F6C02A;
 }
-/*Contact form*/
-.section-contact-form{
-    background: linear-gradient(to right, #F5C029 50%, #F5F7F7 50%);
-    font-family: 'Cuprum';
-}
-.section-contact-form h2{
-    color: #332A00;
-    font-weight: 500;
-}
-.section-contact-form p{
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    color: #332A00;
-}
-.section-contact-form b{
-    font-size: 25px;
-}
-.section-contact-form input[type=text]{
-    min-width: 268px;
-}
-.section-contact-form textarea{
-    min-height: 99px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    resize: none;
-    outline: 0 none;
-}
-
-.btn-contact-form{
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    color: #332A00;
-    max-width: 206px;
-    background-color: #FFD300;
-    padding-left: 30px;
-    padding-right: 30px;
-    box-shadow: 0px 0px 10px #ffd300;
-}
-.section-contact-form form p{
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: normal;
-    text-align: center;
-    font-size: 16px;
-    color: #808080;
-}
-.section-contact-form a{
-    color: #ffd300;
-}
 /*Complect*/
 .complect-item{
     max-width: 265px;
@@ -181,7 +127,7 @@ ul.dropdown-menu.show::after{
     max-width: 244px;
     max-height: 164px;
     background: white;
-    box-shadow: 0px 0px 7px #e6e6e6;
+    border: 1px solid #e6e6e6;
 }
 .img-container-complect img{
     display: block;
@@ -235,10 +181,9 @@ ul.dropdown-menu.show::after{
 .logo-item{
     border: 10px solid transparent;
     box-shadow: 0 0 10px #e6e6e6;
-    max-width: 213px;
-    max-height: 126px;
     margin-top: 10px;
 }
+
 .owl-stage {
     margin: 20px 0px;
     overflow: visible;
@@ -267,7 +212,6 @@ ul.dropdown-menu.show::after{
 }
 .reviews-item{
     background-color:white;
-    max-width: 361px;
     box-shadow: 0 0 10px #e6e6e6;
     border: 10px solid transparent;
 }
@@ -323,8 +267,7 @@ ul.dropdown-menu.show::after{
 }
 /*Section videos*/
 .videos video{
-    max-width: 250px!important;
-    min-height: 200px;
+  width: 100%;
 }
 /*Best solution*/
 .section-best-solution{
@@ -398,75 +341,29 @@ ul.dropdown-menu.show::after{
     font-weight: normal;
     font-size: 16px;
 }
-/*Footer*/
-footer{
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: normal;
-    background: #161616;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    color: white;
-
+.section-best-solution input[type='radio'] {
+    display: none;
 }
-footer a{
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-}
-footer a:hover{
-    color: #F6C02A;
-    text-decoration: none;
-}
-footer p{
-    font-size: 17px;
-}
-.footer-company p{
-    color: #B3B3B3;
-}
-.footer-social-links{
+.section-best-solution label:before {
+    content: " ";
+    display: inline-block;
     position: relative;
-    background: white;
-    border-radius: 50%;
-    text-align: center;
-    vertical-align: middle;
-    width: 25px;
-    height: 25px;
-
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #e6e6e6;
+    background-color: transparent;
 }
-.footer-social-links i{
-    color: #161616;
-    font-size: 18px;
-    line-height: 2;
-}
-.footer-social-links:hover{
-    background: #161616;
-}
-.footer-social-links:hover  i{
-    color: white;
-}
-
-.btn-get-call{
-    font-size: 20px;
-    background: #ffd300;
-    color: #332A00;
-    box-shadow: 0px 0px 10px #ffd300;
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
-.btn-get-call:hover{
-    color: white;
-}
-.number{
-    font-size: 20px;
-    font-weight: bold;
-}
-.link-grey-dots{
-    border-bottom: 1px dotted #525252;
-    color: #525252;
-}
-.link-grey-dot:hover{
-    border-bottom: 1px dotted #ffd300;
-    color: #ffd300;
+.section-best-solution input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    content: " ";
+    display: block;
+    background: #F6C02A;
 }

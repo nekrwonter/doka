@@ -10,6 +10,17 @@ $(document).ready(function () {
         })
         next_fs = $(this).parent().next();
 
+        //Validation
+        if (!document.querySelectorAll('input[name="exampleRadios1"]:checked').length > 0
+            || !document.querySelectorAll('input[name="exampleRadios2"]:checked').length > 0
+            || !document.querySelectorAll('input[name="exampleRadios3"]:checked').length > 0
+            || !document.querySelectorAll('input[name="exampleRadios4"]:checked').length > 0) {
+            $('.submit').addClass('disabled');
+        }
+        else {
+            $('.submit').removeClass('disabled');
+        }
+
 
 //show the next fieldset
         next_fs.show();
@@ -63,6 +74,7 @@ $(document).ready(function () {
     });
 
     $(".submit").click(function () {
+
         return false;
     })
 
