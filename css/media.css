@@ -46,6 +46,9 @@
         background: none;
 
     }
+    .section-banner-inner{
+        background-position: 0 17px;
+    }
     .section-contact-form .container{
         background: linear-gradient(to bottom, #F5C029 50%, #F5F7F7 50%);
 

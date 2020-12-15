@@ -1,1 +1,51 @@
-header
+header{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+}
+header p{
+    color: #525252;
+    font-size: 17px;
+}
+header input{
+    border: 0!important;
+    background-color: #F4F5F5!important;
+}
+span#search{
+    background-color: #F4F5F5;
+    border: 0;
+}
+.header-inner-social-links{
+    position: relative;
+    background: #A6A6A6;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+
+}
+.header-inner-social-links i{
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+}
+.header-inner-social-links:hover{
+    background: #F6C02A;
+}
+.header-inner-logo{
+    box-shadow: 0 0 15px #e6e6e6;
+}
+.number-head{
+    color:#000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.link-grey-header-dots{
+    border-bottom: 1px dotted #525252;
+    color: #525252;
+}
+.link-grey-header-dot:hover{
+    border-bottom: 1px dotted #ffd300;
+    color: #ffd300;
+}

@@ -5,7 +5,49 @@
     background-size: cover;
     backdrop-filter: grayscale(1.0);
     min-height: 257px;
+    background-position: 0 22px;
+}
+.nav-wrap{
+    background-color: #F5C029;
 }
 .top-menu{
+    text-transform: uppercase;
+}
+.top-menu li.nav-item {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+.top-menu li.nav-item:after{
+    content: '';
+    width: 4px;
+    height: 80%;
+    vertical-align: center;
+    border-right: 4px dotted white;
+}
+.top-menu li{
     background-color: #F5C029;
+}
+
+.top-menu li.nav-item:last-child:after{
+    display: none;
+}
+.top-menu li.active {
+    background-color: rgba(255,255,255,0.3);
+}
+.top-menu li:hover{
+    background-color: rgba(255,255,255,0.3);
+}
+.top-menu li.active > a {
+    color: white!important;
+}
+
+
+.top-menu a{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #332A00;
 }
