@@ -42,12 +42,15 @@
         left: 0;
         top: 0;
     }
+    .top-menu ul{
+        flex-direction: column!important;
+    }
+    .top-menu li.nav-item:after{
+        border: 0;
+    }
     .section-contact-form{
         background: none;
 
-    }
-    .section-banner-inner{
-        background-position: 0 17px;
     }
     .section-contact-form .container{
         background: linear-gradient(to bottom, #F5C029 50%, #F5F7F7 50%);

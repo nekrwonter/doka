@@ -1,12 +1,22 @@
 /*Banner inner*/
 
 .section-banner-inner {
-    z-index: 1;
+    min-height: 267px;
+    z-index: -1;
+}
+.section-banner-inner::after{
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background-image: url(../img/banner-inner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 257px;
-    background-position: 0 22px;
+    filter: brightness(0.5);
+
 }
 /*.section-banner-inner .overlay{*/
 /*    background-color: rgba(0,0,0,.3);*/
@@ -21,49 +31,6 @@
     font-weight: bold;
     color: white;
     font-size: 40px;
-}
-.nav-wrap{
-    background-color: #F5C029;
-}
-.top-menu{
-    text-transform: uppercase;
-}
-.top-menu li.nav-item {
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-
-}
-.top-menu li.nav-item:after{
-    content: '';
-    width: 4px;
-    vertical-align: center;
-    border-right: 4px dotted white;
-}
-.top-menu li{
-    background-color: #F5C029;
-}
-
-.top-menu li.nav-item:last-child:after{
-    display: none;
-}
-.top-menu li.active {
-    background-color: rgba(255,255,255,0.3);
-}
-.top-menu li:hover{
-    background-color: rgba(255,255,255,0.3);
-}
-.top-menu li.active > a {
-    color: white!important;
-}
-
-
-.top-menu a{
-    font-family: 'Cuprum';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    color: #332A00;
 }
 .breadcrumb{
     background-color: transparent!important;
