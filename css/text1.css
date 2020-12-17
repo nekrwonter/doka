@@ -17,3 +17,14 @@
     color: #f5c029 ;
     text-decoration: underline;
 }
+
+.text li::marker{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 18px;
+    content: '• ';
+    color: #F5C029;
+    text-shadow: 0 0 5px #F5C029;
+}
+.text ul,ol,dl{
+    line-height: 2;
+}

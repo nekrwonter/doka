@@ -26,19 +26,33 @@
     border-left: 1px solid #F5C029;
     border-bottom: 1px solid #F5C029;
     border-top: 1px solid #F5C029;
+    background-color: transparent;
 }
-.price-collapse:focus + .triangle-right{
-    display: block!important;
-}
-.price-collapse:active + .triangle-right{
-    display: block!important;
-}
-.price-collapse:active{
+.price-collapse:hover{
     outline: 0!important;
     box-shadow: none!important;
     border-left: 1px solid #F5C029;
     border-bottom: 1px solid #F5C029;
     border-top: 1px solid #F5C029;
+    background-color: transparent;
+}
+
+.btn.focus+ .triangle-right{
+    display: block!important;
+}
+.btn:hover+ .triangle-right{
+    display: block!important;
+}
+.btn:focus+ .triangle-right{
+    display: block!important;
+}
+.price .btn.focus, .btn:focus{
+    outline: 0!important;
+    box-shadow: none!important;
+    border-left: 1px solid #F5C029;
+    border-bottom: 1px solid #F5C029;
+    border-top: 1px solid #F5C029;
+    background-color: transparent;
 }
 
 
@@ -100,4 +114,10 @@
 }
 .table-striped tbody tr:nth-of-type(even){
     background-color: #ECECEC;
+}
+.price .collapsing{
+    transition-duration: 1.5s;
+}
+.price .collapse{
+    transition-duration: 1s;
 }

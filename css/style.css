@@ -1,20 +1,4 @@
-h1{
-    font-family: 'PF Din Text Comp Pro';
-    font-size: 50px;
-    font-weight: bold;
-    font-style: normal;
-    color: white;
-    overflow-wrap: break-word;
-    letter-spacing: 4px;
-}
-h2{
-    font-family: 'PF Din Text Comp Pro';
-    font-size: 40px;
-    font-weight: bold;
-    font-style: normal;
-    color:#1C1C1C;
-    overflow-wrap: break-word;
-}
+
 /*Tag a*/
 .yellow-to-white a{
     color: #F6C02A;

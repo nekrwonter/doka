@@ -2,7 +2,6 @@
 
 .section-banner-inner {
     min-height: 267px;
-    z-index: -1;
 }
 .section-banner-inner::after{
     z-index: -1;
@@ -57,4 +56,20 @@
 .breadcrumb-item+.breadcrumb-item::before{
     color: white;
     padding-right: 1.5rem;
+}
+.btn-catalog{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #332A00;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #FFD300;;
+    box-shadow: 0px 0px 10px #ffd300;
+}
+.btn-catalog:hover{
+    box-shadow: 0 0 0px #FFD300;
+    background: #F6C02A;
+    color: white;
 }
