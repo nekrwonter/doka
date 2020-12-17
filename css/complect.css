@@ -1,0 +1,34 @@
+/*Complect*/
+.complect-item{
+    box-shadow: 0 0 10px #e6e6e6;
+    background-color: white;
+}
+.complect-item h5{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C1C1C;
+}
+.img-container-complect{
+    max-width: 244px;
+    max-height: 164px;
+    background: white;
+}
+.img-container-complect img{
+    display: block;
+    max-height: 164px;
+    border: 1px solid #e6e6e6;
+}
+.complect-btn{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #332A00;
+    max-width: 206px;
+    background-color: #FFD300;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 10px #ffd300;
+}

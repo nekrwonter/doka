@@ -1,0 +1,44 @@
+/**/
+.owl-dot{
+    width: 21px;
+    height: 7px;
+    background-color: #B3B3B3!important;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 5px;
+    outline: 0;
+    border: 0;
+}
+.owl-dot + .active{
+    background-color: #F5C029!important;
+}
+.owl-dot span{display: none}
+.dots{
+    width: 21px;
+    height: 7px;
+    background-color: #B3B3B3;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.dots + .active{
+    background-color: #F5C029!important;
+}
+.owl-stage {
+    margin: 20px 0px;
+    overflow: visible;
+}
+.slider-subtitle{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    color: #525252;
+    font-size: 20px;
+}

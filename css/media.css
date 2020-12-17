@@ -19,6 +19,9 @@
         border-right: 1px solid #e6e6e6!important;
         border-bottom: 1px solid #e6e6e6!important;
     }
+    .arenda-item{
+        max-width:290px;
+    }
 }
 
 /**/
@@ -29,9 +32,12 @@
 
 
 }
-@media (max-width: 990px) {
+@media (max-width: 992px) {
     header .navbar {
         background-color: #F6C02A;
+    }
+    .arenda-item{
+        max-width: 215px;
     }
 }
 /*
@@ -55,6 +61,9 @@
     .section-contact-form .container{
         background: linear-gradient(to bottom, #F5C029 50%, #F5F7F7 50%);
 
+    }
+    .arenda-item{
+        max-width: none!important;
     }
 
 }

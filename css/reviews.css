@@ -1,0 +1,44 @@
+/*Reviews*/
+.section-reviews{
+    background-color: #F5F7F7;
+}
+.reviews-quotes{
+    z-index: 0;
+    font-size: 200px;
+    font-family: 'PF Din Text Comp Pro';
+    font-weight: 500;
+    font-style: normal;
+    position: absolute;
+    top: -70px;
+    right: 0;
+    color: #e8e8e8;
+}
+.reviews-item{
+    background-color:white;
+    box-shadow: 0 0 10px #e6e6e6;
+    border: 10px solid transparent;
+}
+.review-border{
+    border: 1px solid #E6E6E6;
+}
+.reviews-item h5{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1C1C1C;
+}
+.time{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    color: #525252;
+    font-size: 17px;
+}
+.reviews-text p{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    color: #525252;
+    font-size: 17px;
+}

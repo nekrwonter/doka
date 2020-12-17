@@ -1,0 +1,38 @@
+/*Sidebar*/
+.sidebar h3{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #1C1C1C;
+}
+.yellow-line {
+    width: 55px;
+    height: 3px;
+    background-color: #F5C029;
+
+}
+.sidebar{
+    background-color: #FAFAFA;
+    height: min-content;
+}
+.sidebar a{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    color: #525252;
+    font-size: 17px;
+    text-decoration: none;
+}
+.sidebar a:hover{
+    color: #F5C029;
+}
+.sidebar-item{
+    margin-bottom: 1.5rem;
+}
+.sidebar-item:last-child{
+    margin-bottom: 0;
+}
+.sidebar li{
+    line-height: 2;
+}

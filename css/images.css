@@ -1,0 +1,18 @@
+/*Section images*/
+.images>div{
+    max-width: 260px;
+    height: 198px;
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*for sliders*/
+.images-item{
+    max-width: 260px;
+    height: 198px;
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
