@@ -1,0 +1,51 @@
+.section-icons-list h4{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+    overflow-wrap: break-word;
+}
+.section-icons-list p{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    color: #525252;
+    font-size: 17px;
+}
+.circle-container{
+    display: block;
+    width: 102px;
+    height: 130px;
+}
+.circle-yellow{
+    background: #F5C029;
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    margin-left: auto;
+    position:relative;
+
+}
+.circle-white{
+    background: white;
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    position:relative;
+    top: -78px;
+    margin-right: auto;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+.circle-white img{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.icons-centered-border:first-child > .row > div{
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
