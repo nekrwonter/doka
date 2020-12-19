@@ -1,0 +1,59 @@
+.sales-item{
+    overflow: hidden;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+.sales-item h3{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1C1C1C;
+}
+.sales-item p{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #525252;
+}
+.sales-item .img-sales-container img{
+    max-height: 267px;
+    max-width: 100%;
+}
+.img-sales-container{
+    height: 267px;
+}
+.btn-sales{
+    font-size: 20px;
+    background: #FFD300;
+    color: #332A00;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 180px;
+    overflow-wrap: break-word;
+    font-weight: 500;
+    box-shadow: 0 0 5px #FFD300;
+
+}
+.btn-sales:hover{
+    box-shadow: 0 0 0px #FFD300;
+    background: #F6C02A;
+    color: white;
+}
+.sale-value{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #1C1C1C;
+    background: #F5C029;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+
+}

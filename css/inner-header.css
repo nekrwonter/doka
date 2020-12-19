@@ -14,6 +14,7 @@ header input{
 span#search{
     background-color: #F4F5F5;
     border: 0;
+    height: 41px;
 }
 .header-inner-social-links{
     position: relative;
@@ -42,6 +43,7 @@ span#search{
     font-weight: bold;
 }
 .link-grey-header-dots{
+    text-decoration: none;
     border-bottom: 1px dotted #525252;
     color: #525252;
 }
@@ -56,6 +58,7 @@ span#search{
 .top-menu{
     text-transform: uppercase;
     margin: -22px 0;
+    border-radius: 10px;
 }
 .top-menu li.nav-item {
     display: flex;

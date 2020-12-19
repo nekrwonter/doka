@@ -26,45 +26,45 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="./js/popper.min.js"></script>
 </head>
 <body>
 <!--HEADER-->
 <header>
     <div class="container">
         <nav class="navbar navbar-expand-lg rounded">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerHeader1" aria-controls="navbarTogglerHeader1" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeader1" aria-controls="navbarTogglerHeader1" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
 
             <div class="collapse navbar-collapse flex-row m-4 m-lg-0 m-xl-0" id="navbarTogglerHeader1">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 flex-grow-1 flex-shrink-1" id="main-nav">
-                    <li class="nav-item active mr-4">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0 flex-grow-1 flex-shrink-1" id="main-nav">
+                    <li class="nav-item active me-4">
                         <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item mr-4">
+                    <li class="nav-item me-4">
                         <a class="nav-link" href="#">О компании</a>
                     </li>
-                    <li class="nav-item mr-4">
+                    <li class="nav-item me-4">
                         <a class="nav-link" href="#">Статьи</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Контакты</a>
                     </li>
                 </ul>
-                <ul class="list-unstyled list-inline d-flex align-items-center mb-0 mr-4 flex-grow-1 flex-shrink-1  justify-content-xl-end justify-content-lg-end">
-                    <li class="list-inline-item header-social-links d-flex align-items-center justify-content-center mr-3">
+                <ul class="list-unstyled list-inline d-flex align-items-center mb-0 me-4 flex-grow-1 flex-shrink-1  justify-content-xl-end justify-content-lg-end">
+                    <li class="list-inline-item header-social-links d-flex align-items-center justify-content-center me-3">
                         <a href="#"><i class="fab fa-instagram "></i></a>
                     </li>
-                    <li class="list-inline-item header-social-links d-flex align-items-center justify-content-center mr-3">
+                    <li class="list-inline-item header-social-links d-flex align-items-center justify-content-center me-3">
                         <a href="#"><i class="fab fa-facebook-f "></i></a>
                     </li>
-                    <li class="list-inline-item header-social-links d-flex align-items-center justify-content-center mr-3">
+                    <li class="list-inline-item header-social-links d-flex align-items-center justify-content-center me-3">
                         <a href="#"><i class="fab fa-vk "></i></a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0 flex-grow-1 flex-shrink-1">
-                    <div class="input-group md-form form-sm form-2 pl-0 w-100">
+                    <div class="input-group md-form form-sm form-2 ps-0 w-100">
                     <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Поиск" aria-label="Search">
                         <div class="input-group-append">
                             <span class="input-group-text amber lighten-3" id="search">
@@ -77,7 +77,7 @@
         </nav>
         <hr class="mt-0">
 
-                 <div class="row justify-content-between align-items-center mb-2 mt-2">
+        <div class="row justify-content-between align-items-center mb-2 mt-2" >
             <div class="col-lg-3 col-md-6 align-self-start mb-2">
                 <img src="img/header-logo.png" alt="logo" height="63" width="201">
             </div>
@@ -90,18 +90,18 @@
                 <a href="mailto:opalubkavspb@ya.ru" class="link-grey-dots mt-1">opalubkavspb@ya.ru</a>
             </div>
             <div class="col-lg-3 col-md-6 align-self-start mb-2 ">
-                <button class="btn btn-get-call ml-lg-auto float-lg-right float-md-none float-sm-none float-xs-none" >
+                <button class="btn btn-get-call ms-lg-auto float-lg-end float-md-none float-sm-none float-xs-none" >
                     Заказать звонок
                 </button>
             </div>
         </div>
-                <nav class="navbar-expand-md">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerHeader2" aria-controls="navbarTogglerHeader2" aria-expanded="false" aria-label="Toggle navigation">
+                <nav class="navbar-expand-md" id="lower-menu">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeader2" aria-controls="navbarTogglerHeader2" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <ul class="nav bold-nav justify-content-lg-around ml-lg-5 mr-lg-5 nav-menu collapse navbar-collapse flex-row" id="navbarTogglerHeader2">
+                    <ul class="nav bold-nav justify-content-around  nav-menu collapse navbar-collapse flex-row" id="navbarTogglerHeader2">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" data-toggle="dropdown">аренда опалубки</a>
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">аренда опалубки</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#"> Цилиндры минераловатные</a></li>
                                 <li><a class="dropdown-item" href="#"> Маты теплоизоляционные </a></li>
@@ -112,7 +112,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-toggle="dropdown">продажа опалубки</a>
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">продажа опалубки <span class="caret d-xl-none d-lg-none d-md-none"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#"> Цилиндры минераловатные</a></li>
                                 <li><a class="dropdown-item" href="#"> Маты теплоизоляционные </a></li>
@@ -142,7 +142,7 @@
 <section class="section-top mt-4 mb-4" >
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-lg section-top-main-block mr-xl-4 mr-lg-4  mb-4 mb-md-4 mb-sm-4 mb-xs-4 mb-xl-0 mb-lg-0 overflow-hidden">
+            <div class="col-lg section-top-main-block me-xl-4 me-lg-4  mb-4 mb-md-4 mb-sm-4 mb-xs-4 mb-xl-0 mb-lg-0 overflow-hidden">
                 <a href="#"><h1 class="m-4">Опалубка с отгрузкой в <br> день заказа</h1></a>
                 <div class="white-line m-4"></div>
                 <div class="row">
@@ -187,8 +187,8 @@
 <section class="towars ">
     <div class="container p-0 mt-4">
         <div class=" slider-towars owl-theme owl-carousel w-100">
-            <div class="mb-4 mr-1 ml-1 mx-md-auto towar">
-                <h3 class="text-center mr-3 ml-3 mt-4">Опалубка перекрытия</h3>
+            <div class="mb-4 me-1 ms-1 mx-md-auto towar">
+                <h3 class="text-center me-3 ms-3 mt-4">Опалубка перекрытия</h3>
                 <div class="d-flex align-self-center justify-content-center align-items-center img-container-towar mx-auto mt-4 mb-4">
                     <img src="img/towars1.png" alt="towar">
                 </div>
@@ -203,8 +203,8 @@
                 <span class="tovar-price mb-4 mt-4 d-block text-center">115 руб./м2</span>
                 <a href="#" class="btn btn-section-towar d-block mx-auto mb-5">Подробнее</a>
             </div>
-            <div class="mb-4 mr-1 ml-1 mx-md-auto towar">
-                <h3 class="text-center mr-3 ml-3 mt-4">Опалубка перекрытия</h3>
+            <div class="mb-4 me-1 ms-1 mx-md-auto towar">
+                <h3 class="text-center me-3 ms-3 mt-4">Опалубка перекрытия</h3>
                 <div class="d-flex align-self-center justify-content-center align-items-center img-container-towar mx-auto mt-4 mb-4">
                     <img src="img/towars2.png" alt="towar">
                 </div>
@@ -219,8 +219,8 @@
                 <span class="tovar-price mb-4 mt-4 d-block text-center">115 руб./м2</span>
                 <a href="#" class="btn btn-section-towar d-block mx-auto mb-5">Подробнее</a>
             </div>
-            <div class="mb-4 mr-1 ml-1 mx-md-auto towar">
-                <h3 class="text-center mr-3 ml-3 mt-4">Опалубка перекрытия</h3>
+            <div class="mb-4 me-1 ms-1 mx-md-auto towar">
+                <h3 class="text-center me-3 ms-3 mt-4">Опалубка перекрытия</h3>
                 <div class="d-flex align-self-center justify-content-center align-items-center img-container-towar mx-auto mt-4 mb-4">
                     <img src="img/towars3.png" alt="towar">
                 </div>
@@ -281,23 +281,23 @@
                         <div class="mx-auto" id="price-collapse1">
                             <div class="position-relative mx-auto">
                                 <button class="btn price-collapse mb-4" type="button" data-toggle="collapse" data-target="#collapsePrice1" aria-expanded="true" aria-controls="collapsePrice1">
-                                    <span class="d-inline w-auto float-left">Перекрытие</span>
-                                    <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="d-inline w-auto float-start">Перекрытие</span>
+                                    <span class="d-inline float-end span-arrow"><i class="fas fa-chevron-right"></i></span>
                                 </button>
                                 <div class="triangle-right"></div>
                             </div>
 
                             <div class="position-relative mx-auto">
                                 <button class="btn price-collapse mb-4" type="button" data-toggle="collapse" data-target="#collapsePrice2" aria-expanded="true" aria-controls="collapsePrice2">
-                                    <span class="d-inline w-auto float-left">Стены</span>
-                                    <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="d-inline w-auto float-start">Стены</span>
+                                    <span class="d-inline float-end span-arrow"><i class="fas fa-chevron-right"></i></span>
                                 </button>
                                 <div class="triangle-right"></div>
                             </div>
                             <div class="position-relative mx-auto">
                                 <button class="btn price-collapse mb-4" type="button" data-toggle="collapse" data-target="#collapsePrice3" aria-expanded="true" aria-controls="collapsePrice1">
-                                    <span class="d-inline w-auto float-left">Фундамент</span>
-                                    <span class="d-inline float-right span-arrow"><i class="fas fa-chevron-right"></i></span>
+                                    <span class="d-inline w-auto float-start">Фундамент</span>
+                                    <span class="d-inline float-end span-arrow"><i class="fas fa-chevron-right"></i></span>
                                 </button>
                                 <div class="triangle-right"></div>
                             </div>
@@ -311,35 +311,35 @@
                     <table class="prices-table table table-striped ">
                         <tbody>
                         <tr>
-                            <td class="pl-5">Щит опалубки стальной</td>
+                            <td class="ps-5">Щит опалубки стальной</td>
                             <td><b>350 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Замок клиновой</td>
+                            <td class="ps-5">Замок клиновой</td>
                             <td><b>50 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Замок универсальный</td>
+                            <td class="ps-5">Замок универсальный</td>
                             <td><b>60 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Стяжка опалубки</td>
+                            <td class="ps-5">Стяжка опалубки</td>
                             <td><b>15 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Гайка опалубки</td>
+                            <td class="ps-5">Гайка опалубки</td>
                             <td><b>15 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Шкворень</td>
+                            <td class="ps-5">Шкворень</td>
                             <td><b>50 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Подкос двухуровневый</td>
+                            <td class="ps-5">Подкос двухуровневый</td>
                             <td><b>500 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Захват монтажный</td>
+                            <td class="ps-5">Захват монтажный</td>
                             <td><b>900 руб</b></td>
                         </tr>
                         </tbody>
@@ -349,35 +349,35 @@
                     <table class="prices-table table table-striped ">
                         <tbody>
                         <tr>
-                            <td class="pl-5">Щит опалубки стальной</td>
+                            <td class="ps-5">Щит опалубки стальной</td>
                             <td><b>350 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Замок клиновой</td>
+                            <td class="ps-5">Замок клиновой</td>
                             <td><b>50 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Замок универсальный</td>
+                            <td class="ps-5">Замок универсальный</td>
                             <td><b>60 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Стяжка опалубки</td>
+                            <td class="ps-5">Стяжка опалубки</td>
                             <td><b>15 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Гайка опалубки</td>
+                            <td class="ps-5">Гайка опалубки</td>
                             <td><b>15 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Шкворень</td>
+                            <td class="ps-5">Шкворень</td>
                             <td><b>50 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Подкос двухуровневый</td>
+                            <td class="ps-5">Подкос двухуровневый</td>
                             <td><b>500 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Захват монтажный</td>
+                            <td class="ps-5">Захват монтажный</td>
                             <td><b>900 руб</b></td>
                         </tr>
                         </tbody>
@@ -387,35 +387,35 @@
                     <table class="prices-table table table-striped ">
                         <tbody>
                         <tr>
-                            <td class="pl-5">Щит опалубки стальной</td>
+                            <td class="ps-5">Щит опалубки стальной</td>
                             <td><b>350 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Замок клиновой</td>
+                            <td class="ps-5">Замок клиновой</td>
                             <td><b>50 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Замок универсальный</td>
+                            <td class="ps-5">Замок универсальный</td>
                             <td><b>60 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Стяжка опалубки</td>
+                            <td class="ps-5">Стяжка опалубки</td>
                             <td><b>15 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Гайка опалубки</td>
+                            <td class="ps-5">Гайка опалубки</td>
                             <td><b>15 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Шкворень</td>
+                            <td class="ps-5">Шкворень</td>
                             <td><b>50 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Подкос двухуровневый</td>
+                            <td class="ps-5">Подкос двухуровневый</td>
                             <td><b>500 руб</b></td>
                         </tr>
                         <tr>
-                            <td class="pl-5">Захват монтажный</td>
+                            <td class="ps-5">Захват монтажный</td>
                             <td><b>900 руб</b></td>
                         </tr>
                         </tbody>
@@ -721,7 +721,7 @@
                 </div>
             </div>
         </div>
-        <div class="reviews-slider owl-theme owl-carousel ml-0 mr-0">
+        <div class="reviews-slider owl-theme owl-carousel ms-0 me-0">
             <div class="reviews-item p-1 rounded mx-auto">
                 <div class="review-border rounded m-2">
                     <div class="reviews-head position-relative m-3">
@@ -731,7 +731,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -752,7 +752,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -773,7 +773,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -794,7 +794,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -815,7 +815,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -836,7 +836,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -857,7 +857,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -878,7 +878,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -899,7 +899,7 @@
                         <div class="reviews-time">
                             <p class="time">16.01.2017</p>
                         </div>
-                        <div class="reviews-quotes float-right">
+                        <div class="reviews-quotes float-end">
                             ”
                         </div>
                     </div>
@@ -941,11 +941,11 @@
 <!--SECTION Images-->
 <section class="section-images">
     <div class="container">
-        <div class="row justify-content-between images pr-3 pl-3">
-            <div class="col-xl-3 pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-1.jpg)"></div>
-            <div class="col-xl-3 pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-2.jpg)"></div>
-            <div class="col-xl-3 pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-3.jpg)"></div>
-            <div class="col-xl-3 pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-4.jpg)"></div>
+        <div class="row justify-content-between images pe-3 ps-3">
+            <div class="col-xl-3 ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-1.jpg)"></div>
+            <div class="col-xl-3 ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-2.jpg)"></div>
+            <div class="col-xl-3 ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-3.jpg)"></div>
+            <div class="col-xl-3 ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0" style="background-image: url(img/text-2-4.jpg)"></div>
         </div>
         <hr class="mt-5 mb-5">
     </div>
@@ -967,74 +967,74 @@
                 </div>
             </div>
         </div>
-        <div class="videos owl-theme owl-carousel ml-0 mr-0">
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+        <div class="videos owl-theme owl-carousel ms-0 me-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster1.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster2.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster3.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster4.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster1.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster2.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster3.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster4.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster1.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster2.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster3.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
                 </video>
             </div>
-            <div class="pl-0 pr-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
+            <div class="ps-0 pe-0 mt-2 mb-2 mx-auto mx-xl-0 mx-lg-0 mx-md-0">
                 <video poster="img/poster4.jpg" onclick="this.play();" class="mx-auto mx-xl-0 mx-lg-0 mx-md-0 d-block">
                     <source src="img/video/small.mp4" type="video/mp4">
                     Браузер не потдеживает видео.
@@ -1172,7 +1172,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <input type="button" name="prev" class="previous btn btn-next-step mr-3" value="Назад" /><input type="button" name="next" class="next btn btn-next-step" value="Далее" />
+                            <input type="button" name="prev" class="previous btn btn-next-step me-3" value="Назад" /><input type="button" name="next" class="next btn btn-next-step" value="Далее" />
                         </fieldset>
                         <fieldset>
                             <div class="form-card">
@@ -1226,7 +1226,7 @@
 
                                 </div>
                             </div>
-                            <input type="button" name="next" class="previous btn btn-next-step mr-3" value="Назад" /><input type="button" name="next" class="next btn btn-next-step" value="Далее" />
+                            <input type="button" name="next" class="previous btn btn-next-step me-3" value="Назад" /><input type="button" name="next" class="next btn btn-next-step" value="Далее" />
                         </fieldset>
                         <fieldset>
                             <div class="form-card">
@@ -1280,7 +1280,7 @@
 
                                 </div>
                             </div>
-                            <input type="button" name="next" class="previous btn btn-next-step mr-3" value="Назад" /><input type="submit" name="submit" class="btn btn-next-step submit" value="Отправить" />
+                            <input type="button" name="next" class="previous btn btn-next-step me-3" value="Назад" /><input type="submit" name="submit" class="btn btn-next-step submit" value="Отправить" />
                         </fieldset>
 
 
@@ -1296,27 +1296,27 @@
 <section class="section-tags">
     <div class="container mb-5 mt-5">
         <h2>Теги</h2>
-        <div class="tags-cloud d-flex flex-wrap mr-4 ml-4">
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка для фундамента</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка лифтовых шахт</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Становая опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Горизонтальная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка для монолитного перекрытия</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Строительная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Разборная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка для возведения монолита</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Монолитная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Вертикальная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка для фундамента</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка лифтовых шахт</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Становая опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Горизонтальная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка для монолитного перекрытия</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Строительная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Разборная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Опалубка для возведения монолита</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Монолитная опалубка</div>
-            <div class="rounded text-center pt-2 pb-2 pl-3 pr-3 m-1">Вертикальная опалубка</div>
+        <div class="tags-cloud d-flex flex-wrap me-4 ms-4">
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка для фундамента</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка лифтовых шахт</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Становая опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Горизонтальная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка для монолитного перекрытия</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Строительная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Разборная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка для возведения монолита</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Монолитная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Вертикальная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка для фундамента</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка лифтовых шахт</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Становая опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Горизонтальная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка для монолитного перекрытия</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Строительная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Разборная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Опалубка для возведения монолита</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Монолитная опалубка</div>
+            <div class="rounded text-center pt-2 pb-2 ps-3 pe-3 m-1">Вертикальная опалубка</div>
         </div>
     </div>
 
@@ -1420,5 +1420,6 @@
 <script type="application/javascript" src="js/slick-sliders.js"></script>
 <script type="application/javascript" src="js/fieldsets.js"></script>
 <script type="application/javascript" src="js/nav-concat.js"></script>
+<script type="application/javascript" src="js/nav.js"></script>
 </body>
 </html>

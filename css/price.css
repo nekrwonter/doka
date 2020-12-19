@@ -111,13 +111,36 @@
 }
 .table-striped tbody tr:nth-of-type(odd){
     background-color: white;
+    --bs-table-accent-bg: none;
 }
 .table-striped tbody tr:nth-of-type(even){
     background-color: #ECECEC;
 }
+
 .price .collapsing{
     transition-duration: 1.5s;
 }
 .price .collapse{
     transition-duration: 1s;
+}
+.all-prices h5{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    color: #525252;
+    font-size: 22px;
+}
+.all-prices a{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    color: #F5C029;
+    font-size: 17px;
+}
+
+.all-prices table{
+    box-shadow: 0 0 10px #e6e6e6;
+}
+.all-prices .table td{
+    padding-left: 30px;
 }

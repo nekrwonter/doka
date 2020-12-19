@@ -24,7 +24,7 @@ header a{
     font-size: 18px;
 }
 header a:hover{
-    color: #F6C02A;
+    color: white;
     text-decoration: none;
 }
 header .input-group-text{
@@ -41,6 +41,9 @@ header p{
 }
 header .navbar{
     padding: 0 0;
+}
+header span.navbar-toggler-icon{
+    color: #F5C029;
 }
 .navbar-nav > .active > a{
     color: #F6C02A;
