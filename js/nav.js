@@ -1,6 +1,6 @@
 
 
-if($(window).width() < 768)
+if($(window).width() < 990)
 {
     $('#navbarTogglerHeader1').append($('#navbarTogglerHeader2')
         .unwrap()).parent();
