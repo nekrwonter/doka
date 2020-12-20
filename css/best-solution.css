@@ -1,0 +1,98 @@
+/*Best solution*/
+.section-best-solution{
+    background-color:#F5F7F3;
+}
+.bs-sub-title{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: #525252;
+}
+.solution-test{
+    background-color: white;
+    min-height: 265px;
+    box-shadow: 0 0 10px #e6e6e6;
+}
+.solution-test h5{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #F3BF29;
+}
+.section-best-solution label{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    color: #444444;
+    font-size: 18px;
+}
+.section-best-solution span{
+    color: #FF7E26;
+}
+.btn-next-step{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #332A00;
+    max-width: 206px;
+    background-color: #FFD300;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 0px 10px #ffd300;
+}
+.btn-next-step:hover{
+    box-shadow: none;
+}
+#msform fieldset:not(:first-of-type) {
+    display: none
+}
+.saler h6{
+    font-family: 'Cuprum';
+    font-style: normal;
+    color: #525252;
+    font-size: 20px;
+    font-weight: bold;
+}
+.saler-position{
+    font-family: 'Cuprum';
+    font-style: normal;
+    color: #525252;
+    font-weight: normal;
+    font-size: 17px;
+}
+.saler-text{
+    font-family: 'Cuprum';
+    font-style: normal;
+    color: #525252;
+    font-weight: normal;
+    font-size: 16px;
+}
+.section-best-solution input[type='radio'] {
+    display: none;
+}
+.section-best-solution label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #e6e6e6;
+    background-color: transparent;
+}
+.section-best-solution input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    content: " ";
+    display: block;
+    background: #F6C02A;
+}

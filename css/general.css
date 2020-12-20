@@ -21,3 +21,22 @@ h2{
 .bordered-small{
     border: 15px solid #ECECEC;
 }
+
+/*Tag a*/
+.yellow-to-white a{
+    color: #F6C02A;
+}
+.yellow-to-white a:hover{
+    color: white;
+}
+.white-to-yellow a{
+    color: white;
+}
+.white-to-yellow a:hover{
+    color: #F6C02A;
+}
+.btn:hover{
+    box-shadow: 0 0 0px #FFD300;
+    background: #F6C02A;
+    color: white;
+}

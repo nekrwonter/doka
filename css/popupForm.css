@@ -1,0 +1,41 @@
+/*Popup*/
+#popupForm{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+}
+#popupForm .modal-content{
+    background-color: transparent;
+    border-color: transparent;
+}
+#popupForm .modal-header{
+    border-color: transparent;
+
+}
+#popupForm .modal-body form{
+    background-color: white;
+}
+#popupForm p{
+    font-family: 'PF Din Text Comp Pro';
+    font-weight: 300;
+    font-style: normal;
+    color: #332a00;
+    font-size: 20px;
+}
+#popupForm .btn-close{
+    background: none;
+    color: white;
+    font-size: 30px;
+    opacity: 1;
+}
+.btn-popup{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #332A00;
+    max-width: 206px;
+    background-color: #FFD300;
+    padding-left: 30px;
+    padding-right: 30px;
+}

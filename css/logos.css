@@ -1,0 +1,13 @@
+/*Logo*/
+.logo-item{
+    border: 10px solid transparent;
+    box-shadow: 0 0 10px #e6e6e6;
+    margin-top: 10px;
+}
+
+.logo-slider{
+    overflow-y: visible!important;
+}
+/*img.d-block.mx-auto {*/
+/*    width: 100%;*/
+/*}*/

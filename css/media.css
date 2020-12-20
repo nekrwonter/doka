@@ -36,6 +36,12 @@
     header .navbar {
         background-color: #F6C02A;
     }
+    .navbar-nav > .active > a{
+        color: white;
+    }
+    a.nav-link.active{
+        color: white;
+    }
     .arenda-item{
         max-width: 215px;
     }

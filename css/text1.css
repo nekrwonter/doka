@@ -9,7 +9,7 @@
 .text p{
     font-family: 'Cuprum';
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 17px;
     color: #525252;
 }
@@ -27,4 +27,12 @@
 }
 .text ul,ol,dl{
     line-height: 2;
+}
+/*Text-2*/
+.section-text-2 a{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #f3bf29;
 }

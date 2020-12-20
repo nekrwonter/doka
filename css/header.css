@@ -1,0 +1,101 @@
+
+/*Header*/
+header{
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: normal;
+}
+header a{
+    color: #332a00;
+    text-decoration: none;
+    font-size: 18px;
+}
+header a:hover{
+    color: white;
+    text-decoration: none;
+}
+header .input-group-text{
+    background: none;
+    border-left: 0;
+}
+header .form-control{
+    border-right: 0;
+
+}
+header p{
+    color: #525252;
+    font-size: 17px;
+}
+header .navbar{
+    padding: 0 0;
+}
+header span.navbar-toggler-icon{
+    color: #F5C029;
+}
+span#search{
+    background-color: #F4F5F5;
+    border: 0;
+    height: 41px;
+}
+header input{
+    border: 0!important;
+    background-color: #F4F5F5!important;
+}
+.navbar-nav > .active > a{
+    color: #F6C02A;
+}
+.navbar-toggler{
+    background: #F6C02A;
+}
+.navbar-toggler i{
+    color: #332A00;
+}
+.bold-nav{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a.nav-link.active{
+    color: #F6C02A;
+}
+ul.dropdown-menu{
+    position: relative;
+    border-top: 2px solid #F6C02A;
+}
+ul.dropdown-menu.show::after{
+    content: '';
+    position: absolute;
+    top: -15px;
+    opacity: 1;
+    left: 35%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #F6C02A;
+}
+
+.header-social-links{
+    position: relative;
+    background: #A6A6A6;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+
+}
+.header-social-links i{
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+}
+.header-social-links:hover{
+    background: #F6C02A;
+}
+
+
+
+
+

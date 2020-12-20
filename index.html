@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Title</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/font-awesome.css">
@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="css/price.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/logos.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/best-solution.css">
+    <link rel="stylesheet" href="css/popupForm.css">
     <link rel="stylesheet" href="css/tags.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -29,16 +33,43 @@
     <script src="./js/popper.min.js"></script>
 </head>
 <body>
+<!--Popup-->
+<div class="modal fade" id="popupForm" tabindex="-1" aria-labelledby="popupFormLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="btn-close d-flex align-self-end justify-content-end" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></button>
+            <div class="modal-body p-5 pt-0" id="popupForm-content">
+                <form action="/action_page.php" class="p-5 pt-5" id="popupForm-form">
+                            <h2 class="text-center mb-4">Обратный звонок</h2>
+                            <div class="form-group mb-4">
+                                <input type="text" class="form-control" id="popup-name" placeholder="Имя">
+                            </div>
+                            <div class="form-group mb-4">
+                                <input type="text" class="form-control" id="popup-phone" placeholder="Телефон">
+                            </div>
+                            <div class="form-group mb-4">
+                                <textarea class="form-control" id="popup-comment" rows="3" placeholder="Сообщение"></textarea>
+                            </div>
+                    <button type="submit" class="btn btn-popup d-block mx-auto mt-2 mb-4" onsubmit="return false">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Popup-->
+
 <!--HEADER-->
 <header>
     <div class="container">
         <nav class="navbar navbar-expand-lg rounded">
+            <div class="navbar-header">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeader1" aria-controls="navbarTogglerHeader1" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
-
+            <a class="navbar-brand d-inline-block d-xl-none d-lg-none d-md-none" href="#">Menu</a>
+            </div>
             <div class="collapse navbar-collapse flex-row m-4 m-lg-0 m-xl-0" id="navbarTogglerHeader1">
-                <ul class="navbar-nav me-auto mt-2 mt-lg-0 flex-grow-1 flex-shrink-1" id="main-nav">
+                <ul class="navbar navbar-nav me-auto mt-2 mt-lg-0 flex-grow-1 flex-shrink-1" id="main-nav">
                     <li class="nav-item active me-4">
                         <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
                     </li>
@@ -52,7 +83,7 @@
                         <a class="nav-link" href="#">Контакты</a>
                     </li>
                 </ul>
-                <ul class="list-unstyled list-inline d-flex align-items-center mb-0 me-4 flex-grow-1 flex-shrink-1  justify-content-xl-end justify-content-lg-end">
+                <ul class="list-unstyled list-inline d-flex align-items-center justify-content-center mb-0 me-xl-4 me-lg-4 me-md-4   flex-grow-1 flex-shrink-1  justify-content-xl-end justify-content-lg-end">
                     <li class="list-inline-item header-social-links d-flex align-items-center justify-content-center me-3">
                         <a href="#"><i class="fab fa-instagram "></i></a>
                     </li>
@@ -90,7 +121,7 @@
                 <a href="mailto:opalubkavspb@ya.ru" class="link-grey-dots mt-1">opalubkavspb@ya.ru</a>
             </div>
             <div class="col-lg-3 col-md-6 align-self-start mb-2 ">
-                <button class="btn btn-get-call ms-lg-auto float-lg-end float-md-none float-sm-none float-xs-none" >
+                <button class="btn btn-get-call ms-lg-auto float-lg-end float-md-none float-sm-none float-xs-none" data-bs-toggle="modal" data-bs-target="#popupForm">
                     Заказать звонок
                 </button>
             </div>
@@ -1404,7 +1435,7 @@
                     </li>
                 </ul>
                 <p>
-                    <button class="btn btn-get-call">
+                    <button class="btn btn-get-call" data-bs-toggle="modal" data-bs-target="#popupForm">
                         Заказать звонок
                     </button>
                 </p>
@@ -1421,5 +1452,6 @@
 <script type="application/javascript" src="js/fieldsets.js"></script>
 <script type="application/javascript" src="js/nav-concat.js"></script>
 <script type="application/javascript" src="js/nav.js"></script>
+<script type="application/javascript" src="js/popupForm.js"></script>
 </body>
 </html>
