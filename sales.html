@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/subscribe.css">
     <link rel="stylesheet" href="css/sales.css">
     <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/popupForm.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/media.css">
@@ -24,6 +25,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </head>
 <body>
+<!--Popup-->
+<div class="modal fade" id="popupForm" tabindex="-1" aria-labelledby="popupFormLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="btn-close d-flex align-self-end justify-content-end" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></button>
+            <div class="modal-body p-5 pt-0" id="popupForm-content">
+                <form action="/action_page.php" class="p-5 pt-5" id="popupForm-form">
+                    <h2 class="text-center mb-4">Обратный звонок</h2>
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" id="popup-name" placeholder="Имя">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" id="popup-phone" placeholder="Телефон">
+                    </div>
+                    <div class="form-group mb-4">
+                        <textarea class="form-control" id="popup-comment" rows="3" placeholder="Сообщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-popup d-block mx-auto mt-2 mb-4" onsubmit="return false">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Popup-->
 <header>
     <div class="container">
         <div class="d-flex justify-content-between flex-wrap flex-row flex-column flex-xl-row flex-lg-row flex-md-row mb-5 pt-3">
@@ -64,7 +89,7 @@
                 </form>
             </div>
             <div class="align-self-center mb-2">
-                <button class="btn btn-get-call ms-lg-auto float-lg-right float-md-none float-sm-none float-xs-none" >
+                <button class="btn btn-get-call ms-lg-auto float-lg-right float-md-none float-sm-none float-xs-none" data-bs-toggle="modal" data-bs-target="#popupForm">
                     Заказать звонок
                 </button>
             </div>
@@ -72,7 +97,7 @@
         <div class="nav-wrap rounded">
             <nav class="navbar-expand-md top-menu rounded justify-content-around pe-5 ps-5">
                 <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerHeader3" aria-controls="navbarTogglerHeader3" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeader3" aria-controls="navbarTogglerHeader3" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
                     <a class="navbar-brand d-inline-block d-xl-none d-lg-none d-md-none" href="#">Menu</a>
@@ -262,7 +287,7 @@
                     </li>
                 </ul>
                 <p>
-                    <button class="btn btn-get-call">
+                    <button class="btn btn-get-call" data-bs-toggle="modal" data-bs-target="#popupForm">
                         Заказать звонок
                     </button>
                 </p>
@@ -278,5 +303,6 @@
 <script type="application/javascript" src="js/slick-sliders.js"></script>
 <script type="application/javascript" src="js/fieldsets.js"></script>
 <script type="application/javascript" src="js/nav-concat.js"></script>
+<script type="application/javascript" src="js/popupForm.js"></script>
 </body>
 </html>

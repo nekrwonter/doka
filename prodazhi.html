@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/complect.css">
     <link rel="stylesheet" href="css/videos.css">
     <link rel="stylesheet" href="css/text1.css">
+    <link rel="stylesheet" href="css/popupForm.css">
     <link rel="stylesheet" href="css/reviews.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/images.css">
@@ -29,6 +30,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </head>
 <body>
+<!--Popup-->
+<div class="modal fade" id="popupForm" tabindex="-1" aria-labelledby="popupFormLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="btn-close d-flex align-self-end justify-content-end" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></button>
+            <div class="modal-body p-5 pt-0" id="popupForm-content">
+                <form action="/action_page.php" class="p-5 pt-5" id="popupForm-form">
+                    <h2 class="text-center mb-4">Обратный звонок</h2>
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" id="popup-name" placeholder="Имя">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" id="popup-phone" placeholder="Телефон">
+                    </div>
+                    <div class="form-group mb-4">
+                        <textarea class="form-control" id="popup-comment" rows="3" placeholder="Сообщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-popup d-block mx-auto mt-2 mb-4" onsubmit="return false">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Popup-->
+
 <!--Section Header-->
 <header>
     <div class="container">
@@ -70,7 +96,7 @@
                 </form>
             </div>
             <div class="align-self-center mb-2">
-                <button class="btn btn-get-call ms-lg-auto float-lg-end float-md-none float-sm-none float-xs-none" >
+                <button class="btn btn-get-call ms-lg-auto float-lg-end float-md-none float-sm-none float-xs-none" data-bs-toggle="modal" data-bs-target="#popupForm">
                     Заказать звонок
                 </button>
             </div>
@@ -78,10 +104,10 @@
         <div class="nav-wrap rounded">
             <nav class="navbar-expand-md top-menu rounded justify-content-around ps-5 pe-5">
                 <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerHeader3" aria-controls="navbarTogglerHeader3" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeader3" aria-controls="navbarTogglerHeader3" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                     </button>
-                    <a class="navbar-brand d-inline-block d-xl-none d-lg-none d-md-none" href="#">Menu</a>
+                    <a class="navbar-brand d-inline-block d-xl-none d-lg-none d-md-none" href="#">Меню</a>
                 </div>
                 <ul class="nav collapse navbar-collapse " id="navbarTogglerHeader3">
                     <li class="nav-item pt-2 pb-2">
@@ -189,9 +215,9 @@
                         <p>Оборудование сдается на гибких условиях по самой доступной цене в Москве.</p>
 
                     </div>
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 justify-content-between gx-5 gy-3">
-                        <div class="col p-3 rounded arenda-item">
-                            <div>
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-3 justify-content-between gx-4 gy-3">
+                        <div class="col rounded">
+                            <div class="arenda-item p-3">
                                 <img src="img/arenda.png" alt="arenda" class="img-fluid d-block mx-auto">
                                 <a href="#">Щит стальной линейный (140 мм) 0,3х3,0 м для опалубки стен</a>
                                 <div class="mb-3">
@@ -210,8 +236,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col p-3 rounded arenda-item">
-                            <div>
+                        <div class="col rounded">
+                            <div class="arenda-item p-3">
                                 <img src="img/arenda.png" alt="arenda" class="img-fluid d-block mx-auto">
                                 <a href="#">Щит стальной линейный (140 мм) 0,3х3,0 м для опалубки стен</a>
                                 <div class="mb-3">
@@ -230,8 +256,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col p-3 rounded arenda-item">
-                            <div>
+                        <div class="col rounded">
+                            <div class="arenda-item p-3">
                                 <img src="img/arenda.png" alt="arenda" class="img-fluid d-block mx-auto">
                                 <a href="#">Щит стальной линейный (140 мм) 0,3х3,0 м для опалубки стен</a>
                                 <div class="mb-3">
@@ -250,8 +276,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col p-3 rounded arenda-item">
-                            <div>
+                        <div class="col rounded">
+                            <div class="arenda-item p-3">
                                 <img src="img/arenda.png" alt="arenda" class="img-fluid d-block mx-auto">
                                 <a href="#">Щит стальной линейный (140 мм) 0,3х3,0 м для опалубки стен</a>
                                 <div class="mb-3">
@@ -270,8 +296,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col p-3 rounded arenda-item">
-                            <div>
+                        <div class="col rounded">
+                            <div class="arenda-item p-3">
                                 <img src="img/arenda.png" alt="arenda" class="img-fluid d-block mx-auto">
                                 <a href="#">Щит стальной линейный (140 мм) 0,3х3,0 м для опалубки стен</a>
                                 <div class="mb-3">
@@ -290,8 +316,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col p-3 rounded arenda-item">
-                            <div>
+                        <div class="col rounded">
+                            <div class="arenda-item p-3">
                                 <img src="img/arenda.png" alt="arenda" class="img-fluid d-block mx-auto">
                                 <a href="#">Щит стальной линейный (140 мм) 0,3х3,0 м для опалубки стен</a>
                                 <div class="mb-3">
@@ -658,7 +684,7 @@
                 </ul>
             </div>
             <div class="col-xl-5">
-                <img src="img/text2.png" alt="doka" class="img-fluid">
+                <img src="img/text2.png" alt="doka" class="img-fluid mx-auto mx-lg-0 mx-xl-0 d-block">
             </div>
         </div>
     </div>
@@ -1256,7 +1282,7 @@
                     </li>
                 </ul>
                 <p>
-                    <button class="btn btn-get-call">
+                    <button class="btn btn-get-call" data-bs-toggle="modal" data-bs-target="#popupForm">
                         Заказать звонок
                     </button>
                 </p>
@@ -1273,6 +1299,6 @@
 <script type="application/javascript" src="js/fieldsets.js"></script>
 <script type="application/javascript" src="js/nav-concat.js"></script>
 <script type="application/javascript" src="js/price.js"></script>
-
+<script type="application/javascript" src="js/popupForm.js"></script>
 </body>
 </html>

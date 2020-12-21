@@ -2,6 +2,7 @@
 
 .section-banner-inner {
     min-height: 267px;
+    z-index: -1;
 }
 .section-banner-inner::after{
     z-index: -1;

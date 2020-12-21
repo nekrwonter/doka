@@ -42,3 +42,16 @@
     font-size: 16px;
     color: #444444;
 }
+.pagination a:hover{
+    color: #F5C029;
+}
+.pagination .page-item{
+    border-top: 15px solid #ECECEC;
+    border-bottom: 15px solid #ECECEC;
+}
+.pagination .page-item:first-child{
+    border-left: 15px solid #ECECEC;
+}
+.pagination .page-item:last-child{
+    border-right: 15px solid #ECECEC;
+}

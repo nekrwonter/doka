@@ -23,6 +23,13 @@ h2{
 }
 
 /*Tag a*/
+a:hover{
+    transition-duration: 0.7s;
+}
+button:hover{
+    transition-duration: 0.4s;
+}
+
 .yellow-to-white a{
     color: #F6C02A;
 }
@@ -36,6 +43,16 @@ h2{
     color: #F6C02A;
 }
 .btn:hover{
+    box-shadow: 0 0 0px #FFD300;
+    background: #F6C02A;
+    color: white;
+}
+.btn.focus{
+    box-shadow: 0 0 0px #FFD300;
+    background: #F6C02A;
+    color: white;
+}
+.btn:focus{
     box-shadow: 0 0 0px #FFD300;
     background: #F6C02A;
     color: white;

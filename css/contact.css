@@ -1,3 +1,9 @@
+.section-contact a{
+    text-decoration: none;
+}
+.section-contact a:hover{
+    color: #F5C029;
+}
 .circle-container{
     display: block;
     width: 102px;

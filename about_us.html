@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/inner-header.css">
     <link rel="stylesheet" href="css/banner-inner.css">
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/text1.css">
     <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/popupForm.css">
     <link rel="stylesheet" href="css/contact-form.css">
     <link rel="stylesheet" href="css/subscribe.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -20,6 +22,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </head>
 <body>
+<!--Popup-->
+<div class="modal fade" id="popupForm" tabindex="-1" aria-labelledby="popupFormLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button type="button" class="btn-close d-flex align-self-end justify-content-end" data-bs-dismiss="modal" aria-label="Close"><i class="far fa-times"></i></button>
+            <div class="modal-body p-5 pt-0" id="popupForm-content">
+                <form action="/action_page.php" class="p-5 pt-5" id="popupForm-form">
+                    <h2 class="text-center mb-4">Обратный звонок</h2>
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" id="popup-name" placeholder="Имя">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control" id="popup-phone" placeholder="Телефон">
+                    </div>
+                    <div class="form-group mb-4">
+                        <textarea class="form-control" id="popup-comment" rows="3" placeholder="Сообщение"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-popup d-block mx-auto mt-2 mb-4" onsubmit="return false">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Popup-->
 <header>
     <div class="container">
         <div class="d-flex justify-content-between flex-wrap flex-row flex-column flex-xl-row flex-lg-row flex-md-row mb-5 pt-3">
@@ -60,7 +86,7 @@
                 </form>
             </div>
             <div class="align-self-center mb-2">
-                <button class="btn btn-get-call ms-lg-auto float-lg-end float-md-none float-sm-none float-xs-none" >
+                <button class="btn btn-get-call ms-lg-auto float-lg-end float-md-none float-sm-none float-xs-none" data-bs-toggle="modal" data-bs-target="#popupForm">
                     Заказать звонок
                 </button>
             </div>
@@ -68,10 +94,10 @@
         <div class="nav-wrap rounded">
             <nav class="navbar-expand-md top-menu rounded justify-content-around ps-5 pe-5">
                 <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerHeader3" aria-controls="navbarTogglerHeader3" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerHeader3" aria-controls="navbarTogglerHeader3" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <a class="navbar-brand d-inline-block d-xl-none d-lg-none d-md-none" href="#">Menu</a>
+                    <a class="navbar-brand d-inline-block d-xl-none d-lg-none d-md-none" href="#">Меню</a>
                 </div>
                 <ul class="nav collapse navbar-collapse " id="navbarTogglerHeader3">
                     <li class="nav-item pt-2 pb-2">
@@ -125,7 +151,7 @@
                 <p>Если у вас возникли вопросы относительно качества, стоимости или сроков доставки определенной продукции – свяжитесь с нашим менеджером по телефону для получения исчерпывающих ответов. Поспешите сделать заказ в ООО «doka» уже сегодня, чтобы получить привлекательную скидку!</p>
             </div>
             <div class="col-xl-5">
-                <img src="img/text2.png" alt="doka" class="img-fluid">
+                <img src="img/text2.png" alt="doka" class="img-fluid mx-auto mx-lg-0 mx-xl-0 d-block">
             </div>
         </div>
     </div>
@@ -210,7 +236,7 @@
 <section class="section-contact-form">
     <div class="container">
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 cf-yellow">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 cf-yellow ps-sm-5 ps-xs-5 pe-sm-5 pe-xs-5" style="background-color: #F5C029">
                 <h2 class="mt-5 mb-4">Связаться со специалистом</h2>
                 <p class="mb-3">Оставьте  заявку, и наш специалист свяжется с вами в течении 10 минут, подробно проконсультирует по любому вопросу и предложит индивидуальную скидку.
                     <br><br>
@@ -218,20 +244,20 @@
                 </p>
                 <p class="mb-5"><b>+7 (812) 642-09-07</b></p>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 cf-white  mt-sm-5 mt-xs-5">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 cf-white  mt-sm-0 mt-xs-0 ps-sm-5 ps-xs-5 pe-sm-5 pe-xs-5" style="background-color: #F5F7F3">
                 <form action="/action_page.php" class="mt-5 mb-5">
                     <div class="row justify-content-around">
                         <div class="col-xl-6">
                             <div class="form-group mb-4">
                                 <input type="text" class="form-control" id="name" placeholder="Имя">
                             </div>
-                            <div class="form-group mt-4">
+                            <div class="form-group mt-4 mb-4">
                                 <input type="text" class="form-control" id="phone" placeholder="Телефон">
                             </div>
                         </div>
                         <div class="col-xl-6">
                             <div class="form-group">
-                                <textarea class="form-control" id="comment" rows="3" placeholder="Сообщение"></textarea>
+                                <textarea class="form-control mb-4" id="comment" rows="3" placeholder="Сообщение"></textarea>
                             </div>
                         </div>
                     </div>
@@ -257,8 +283,9 @@
             <div class="col-xl-6  align-self-center">
                 <form action="/" class="form">
                     <div class="input-group">
+
                         <input name="email" type="email" class="form-control rounded" id="email" placeholder="Ваш email">
-                        <button type="submit" class="btn btn-subscribe ms-3">Подписаться</button>
+                        <button type="submit" class="btn btn-subscribe ms-3 rounded">Подписаться</button>
                     </div>
                 </form>
             </div>
@@ -351,7 +378,7 @@
                     </li>
                 </ul>
                 <p>
-                    <button class="btn btn-get-call">
+                    <button class="btn btn-get-call" data-bs-toggle="modal" data-bs-target="#popupForm">
                         Заказать звонок
                     </button>
                 </p>
@@ -367,5 +394,6 @@
 <script type="application/javascript" src="js/slick-sliders.js"></script>
 <script type="application/javascript" src="js/fieldsets.js"></script>
 <script type="application/javascript" src="js/nav-concat.js"></script>
+<script type="application/javascript" src="js/popupForm.js"></script>
 </body>
 </html>

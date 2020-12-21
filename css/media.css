@@ -19,9 +19,9 @@
         border-right: 1px solid #e6e6e6!important;
         border-bottom: 1px solid #e6e6e6!important;
     }
-    .arenda-item{
-        max-width:290px;
-    }
+    /*.arenda-item{*/
+    /*    max-width:290px;*/
+    /*}*/
 }
 
 /**/
@@ -42,9 +42,9 @@
     a.nav-link.active{
         color: white;
     }
-    .arenda-item{
-        max-width: 215px;
-    }
+    /*.arenda-item{*/
+    /*    max-width: 215px;*/
+    /*}*/
 }
 
 /*
@@ -55,7 +55,7 @@
         display: none;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     section-top-main-block-img{
         left: 0;
         top: 0;
@@ -74,6 +74,7 @@
         background: linear-gradient(to bottom, #F5C029 50%, #F5F7F7 50%);
 
     }
+
     .arenda-item{
         max-width: none!important;
     }

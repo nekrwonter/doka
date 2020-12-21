@@ -18,7 +18,7 @@
     font-size: 25px;
 }
 .section-contact-form input[type=text]{
-    min-width: 268px;
+    width: 100%;
 }
 .section-contact-form textarea{
     min-height: 99px;
