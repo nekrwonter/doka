@@ -22,6 +22,19 @@
     /*.arenda-item{*/
     /*    max-width:290px;*/
     /*}*/
+    .seconds-blocks{
+        display: inline-block;
+        max-width: 45%;
+    }
+    .seconds-blocks:first-child{
+        margin: 0!important;
+        float: left;
+    }
+    .seconds-blocks:last-child{
+        margin: 0!important;
+        float: right;
+    }
+
 }
 
 /**/
@@ -35,6 +48,17 @@
 @media (max-width: 990px) {
     header .navbar {
         background-color: #F6C02A;
+    }
+    .seconds-blocks{
+        display: block;
+        max-width: 100%;
+    }
+    .seconds-blocks:first-child{
+        float: none;
+    }
+    .seconds-blocks:last-child{
+        margin-top: 1.5rem!important;
+        float: none;
     }
     .navbar-nav > .active > a{
         color: white;
@@ -60,6 +84,7 @@
         left: 0;
         top: 0;
     }
+
     .top-menu ul{
         flex-direction: column!important;
     }
