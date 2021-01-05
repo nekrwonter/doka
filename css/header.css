@@ -11,7 +11,7 @@ header a{
     font-size: 18px;
 }
 header a:hover{
-    color: white;
+    color: #F5C029;
     text-decoration: none;
 }
 header .input-group-text{
