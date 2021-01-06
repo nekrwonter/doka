@@ -3,6 +3,14 @@ header{
     font-style: normal;
     font-weight: normal;
 }
+header a:hover{
+    color: #F5C029;
+    text-decoration: none;
+}
+header nav a:hover{
+    color: white!important;
+    text-decoration: none;
+}
 header p{
     color: #525252;
     font-size: 17px;
